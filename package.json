@@ -1,14 +1,26 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "[How to create a Professional README](./readme-guide.md)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Sharee Burkeen",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharee-k/readme-generator.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "bugs": {
+    "url": "https://github.com/sharee-k/readme-generator/issues"
+  },
+  "homepage": "https://github.com/sharee-k/readme-generator#readme",
+  "devDependencies": {}
 }
