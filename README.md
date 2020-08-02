@@ -1,36 +1,42 @@
 
-  # rehatirharieh
+  # REAMDE Generator
 
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contribution](#contribution)
+  - [Contributing](#contributing)
   - [Test](#test)
+  - [Credits](#credits)
   - [License](#license)
   - [Questions](#questions)
 
   ## Description
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
-  rhewuirhewuioa
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus.
 
   ## Installation
-  rehqrueohie
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus.
 
   ## Usage
-  rueqyreuiohte
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus.
 
-  ## Contribution
-  yreuoyqreuohtoe
+  ## Contributing
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus.
 
   ## Test
-  ruewqyreowr
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare suspendisse sed nisi lacus.
+
+  ## Credits
+  Sharee Burkeen
 
   ## License
-  MIT
+  ISC
+
+  Additional licensing information can be found at  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC).
 
   ## Questions
   For questions please contact me at the following:
-  GitHub: urehquroehwi
-  Email: hfueohqreow
+  - GitHub: sharee-k
+  - Email: shareeburkeen@yahoo.com

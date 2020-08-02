@@ -52,21 +52,33 @@ const questions = [
             message: 'Provide usage information.',
         },
         {
+            type: 'confirm',
+            name: 'confirmContributing',
+            message: 'Do you want other Developers to be able to work on the project?',
+            default: true
+        },
+        {
             type: 'input',
-            name: 'contribution',
-            message: 'Enter the project contributors (Required)',
-            validate: contributionInput => {
-                if (contributionInput) {
-                    return true;
-                } else {
-                    console.log('Please enter the project contributors!');
-                }
-            }
+            name: 'contributing',
+            message: 'Provide Conbributor Governance.',
+            when: ({ confirmContributing }) => confirmContributing
         },
         {
             type: 'input',
             name: 'test',
             message: 'Provide test instructions.',
+        },
+        {
+            type: 'input',
+            name: 'credits',
+            message: 'Who worked on the project? (Required)',
+            validate: creditsInput => {
+                if (creditsInput) {
+                    return true;
+                } else {
+                    console.log('Please enter who worked on the project!');
+                }
+            }
         },
         {
             type: 'checkbox',
