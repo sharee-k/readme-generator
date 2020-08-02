@@ -1,17 +1,16 @@
-
-
 // function to generate markdown for README
 function generateMarkdown(data) {
 
   // create Contributing section if confirmed
   const generateContributing = contributingInput => {
     if (!contributingInput) {
-      return 'Conntribution not allowed.';
+      return 'Contribution not allowed.';
     } else {
       return `${data.contributing}`
       ;
     };
   };
+  
   return `
   # ${data.title}
 
@@ -48,7 +47,7 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
 
-  Additional licensing information can be found at  ${data.badgeList}.
+  If project is licensed, additional licensing information can be found at: ${data.badgeList}.
 
   ## Questions
   For questions please contact me at the following:

@@ -1,5 +1,5 @@
 
-  # REAMDE Generator
+  # README Generator
 
   ## Table of Contents
   - [Description](#description)
@@ -34,7 +34,7 @@
   ## License
   ISC
 
-  Additional licensing information can be found at  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC).
+  If project is licensed, additional licensing information can be found at: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC).
 
   ## Questions
   For questions please contact me at the following:
