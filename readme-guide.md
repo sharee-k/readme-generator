@@ -68,3 +68,10 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them.
+
+
+## Description:
+![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
+
+    
+- [License](https://opensource.org/licenses/${response.license})

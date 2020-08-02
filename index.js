@@ -4,6 +4,16 @@ const fs = require('fs');
 
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
+const licenseLink = {
+    'Apache 2.0': '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+    'BSD 3-Clause': '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)', 
+    'BSD 2-Clause': '[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)', 
+    'GNU GPL': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)', 
+    'GNU LGPL': '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)', 
+    'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+    'ISC': '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'
+}
+
 // array of questions for user
 const questions = [
         {
@@ -62,7 +72,7 @@ const questions = [
             type: 'checkbox',
             name: 'license',
             message: 'Please choose a license from the list.',
-            choices: ['Apache 2.0', 'BSD 3-Clause', 'BSD 2-Clause', 'GNU GPL', 'GNU LGPL', 'MIT']
+            choices: Object.keys(licenseLink),
         },
         {
             type: 'input',
@@ -102,6 +112,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(answers => {
+        const badgeList = answers.license.map(item => {
+            return (licenseLink[item])
+        });
+        answers.badgeList = badgeList.join(' ');
         const response = generateMarkdown(answers);
         console.log(answers);
         writeToFile("README.md", response);
